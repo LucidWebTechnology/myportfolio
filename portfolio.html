@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mario Fontanero - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Mario Fontanero
+          <div class="contact_info">
+            <img src="https://icons8.com/icon/124377/circled-envelope"/>
+          mario@fontanero.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="https://icons8.com/icon/124377/circled-envelope"/>
+          +473837473847
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://cdn.pixabay.com/photo/2016/03/31/19/57/avatar-1295404_960_720.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Mario Fontanero! <img src="https://cdn.pixabay.com/photo/2014/04/02/16/16/hand-306763_960_720.png" width="60px"/>
+          </h1>
+          <p>
+            I am an enthusiastic front-end developer with 3 years of experience in presentation layers of apps and web-pages.
+            I have worked on web and cloud development in major companies. 
+            I am an avid user of GitHub Development Services and have worked on GitHub Assistant, AI development among many other projectsfew.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/800px-Official_CSS_Logo.svg.png"/>
+            <h6>CSS</h6>
+            <p>3 years experience</p>
+          </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/121px-Python-logo-notext.svg.png"/>
+            <h6>Phyton</h6>
+            <p>1 year experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/800px-Typescript.svg.png"/>
+            <h6>TypeScript</h6>
+            <p>1 year experience</p>
+        </div>  
+    
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>AI assistant</h3>
+            <ul>
+              <li>Programmed an AI assistant for a retail company using Phyton, HTML and TypeScript.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Automated User Feedback System</h3>
+            <ul>
+              <li>Designed and developed an automated user feedback system for a leading tech company.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Wellbeing app</h3>
+            <ul>
+              <li>Developed an app that counts how many times your heart beats in a day.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Mario is an incredible front-end developer, he has vast knowledge of HTML, CSS and JavaScript.
+          He has helped our company increase sales over a year period, the results were amazing.
+          It was a great pleasure to work with Mario, I recommend him highly.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I will always remember how great it was to work with Mario.
+          He has been a great asset to our team throughout out app development project cycle.
+          If he ever wants to join a project with us he will always have a place in our team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had to opportunity to work with Mario over 2 years of web-development a project.
+          He proved not only a valuable team member but also a great person to work with.
+          He has incredible team working skills and a very cheerful character.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
