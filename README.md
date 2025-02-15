@@ -1,5 +1,5 @@
 # This is a portfolio site of an imaginary person
-## Prepared as a part of my Front-End Developer Certificate program.
+# Prepared as a part of my Front-End Developer Certificate program.
 
 I did this homework for the completion of IBM Front End Developer Professional certificate course.
 
